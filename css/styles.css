@@ -177,12 +177,11 @@ body {
 .trusted-by-section .logo-marquee-container .logo-marquee-row .logo-card {
   background: white;
   border-radius: 12px;
-  padding: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 160px;
+  min-width: 140px;
   height: 80px;
 }
 .trusted-by-section .logo-marquee-container .logo-marquee-row .logo-card img {
