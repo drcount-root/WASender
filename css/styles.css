@@ -79,6 +79,10 @@ body {
   transform: translateY(-1px);
 }
 
+.navbar-nav {
+  text-align: center;
+}
+
 .navbar-nav .nav-link {
   font-weight: 500;
   font-size: 1rem;
@@ -144,6 +148,7 @@ body {
   height: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 10px;
 }
 .trusted-by-section .logo-marquee-container::before, .trusted-by-section .logo-marquee-container::after {
@@ -190,10 +195,10 @@ body {
   opacity: 1;
 }
 .trusted-by-section .logo-marquee-container .logo-marquee-row.animate-left {
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 .trusted-by-section .logo-marquee-container .logo-marquee-row.animate-right {
-  animation: scroll-right 20s linear infinite;
+  animation: scroll-right 30s linear infinite;
 }
 @keyframes scroll-left {
   0% {
@@ -205,10 +210,10 @@ body {
 }
 @keyframes scroll-right {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(50%);
+    transform: translateX(0%);
   }
 }
 
