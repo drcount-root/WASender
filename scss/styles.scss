@@ -1,0 +1,107 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 130%;
+  letter-spacing: 2%;
+  color: #1d2220;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero-subtitle {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  color: #777a79;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero-list {
+  margin-top: 70px;
+}
+
+.hero-list li {
+  display: flex;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  margin-bottom: 12px;
+  color: #777a79;
+}
+
+.checkbox-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.trial-btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(180deg, #2ecc71 0%, #27ae60 100%);
+  color: white;
+  width: fit-content;
+  // height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.demo-btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: fit-content;
+  // height: 40px;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2%;
+  background-color: #ffffff;
+  color: #019f53;
+  box-shadow: inset 0px 6px 10px 0px #1d222005, 0px 4px 10px 0px #00000014;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: inset 0px 6px 10px 0px #1d222015, 0px 6px 12px 0px #00000030;
+    transform: translateY(-1px);
+  }
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  color: #6c757d; // muted gray
+  transition: color 0.2s ease-in-out;
+
+  &.active,
+  &:hover {
+    color: #212529; // black
+  }
+}
+
+.trial-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  background: linear-gradient(180deg, #2ecc71 0%, #27ae60 100%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+  color: white;
+
+  &:hover {
+    background: linear-gradient(180deg, #27ae60 0%, #219653 100%);
+  }
+}
