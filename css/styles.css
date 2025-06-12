@@ -411,5 +411,37 @@ body {
     display: block;
   }
 }
+.before_you_dive_in h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 2%;
+  color: #1d2220;
+}
+.before_you_dive_in p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  color: #777a79;
+}
+.before_you_dive_in .skip_list {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2%;
+}
+
+.setup_to_sending h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 2%;
+  color: #1d2220;
+}
 
 /*# sourceMappingURL=styles.css.map */

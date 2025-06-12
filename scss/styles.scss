@@ -425,21 +425,60 @@ body {
   max-width: 40%;
 }
 
-.hero-section{
-    display: block;
-  }
-  
-  .hero-section-mini{
+.hero-section {
+  display: block;
+}
+
+.hero-section-mini {
+  display: none;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .hero-section {
     display: none;
   }
 
-@media (max-width: 991px) and (min-width: 768px) {
-  .hero-section{
-    display: none;
-  }
-  
-  .hero-section-mini{
+  .hero-section-mini {
     display: block;
+  }
+}
+
+.before_you_dive_in {
+  h3 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 2%;
+    color: #1d2220;
+  }
+
+  p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 2%;
+    color: #777a79;
+  }
+
+  .skip_list {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2%;
+  }
+}
+
+.setup_to_sending {
+  h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 2%;
+    color: #1d2220;
   }
 }
 
@@ -449,7 +488,6 @@ body {
 //   background-repeat: no-repeat;
 //   height: 300px;
 // }
-
 
 // .faq-section {
 //   font-family: "Plus Jakarta Sans", sans-serif;
