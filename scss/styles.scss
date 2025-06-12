@@ -367,3 +367,67 @@ body {
   color: #1d2220;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 }
+
+.setup-to-sending h2 {
+  font-size: 2.25rem;
+  color: #1d2220;
+}
+
+.setup-to-sending p {
+  font-size: 1rem;
+  color: #777a79;
+}
+
+.setup-to-sending .card {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.setup-to-sending .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.setup-to-sending .btn-outline-secondary {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #1d2220;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.suitability-section {
+  background-color: #f4f4f4;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 16px !important;
+}
+
+.check-suitability-section h3 {
+  color: #1d2220;
+  font-size: 2rem;
+}
+
+.check-suitability-section ul li {
+  font-size: 1rem;
+}
+
+.check-suitability-section .btn-success {
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1);
+}
+
+.manshowingGrowthChart_image {
+  right: 0;
+  bottom: -30px;
+  max-width: 40%;
+}
+
+.trial-offer-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
