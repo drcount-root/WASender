@@ -395,11 +395,21 @@ body {
   max-width: 40%;
 }
 
-.trial-offer-section {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
+.hero-section {
+  display: block;
+}
+
+.hero-section-mini {
+  display: none;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .hero-section {
+    display: none;
+  }
+  .hero-section-mini {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
