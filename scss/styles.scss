@@ -482,54 +482,18 @@ body {
   }
 }
 
-// .trial-offer-section {
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   height: 300px;
-// }
+.text_green {
+  border: 1px solid #019f53 !important;
+  background-color: #fff;
+  color: #019f53 !important;
+  box-shadow: inset 0px 6px 10px 0px #1d222005, 0px 4px 10px 0px #00000014 !important;
+  transition: all 0.3s ease !important;
+}
 
-// .faq-section {
-//   font-family: "Plus Jakarta Sans", sans-serif;
-// }
-
-// .faq-section h2 {
-//   font-size: 2.25rem;
-//   color: #1d2220;
-//   font-weight: 500;
-// }
-
-// .faq-section .accordion-button {
-//   font-size: 1.1rem;
-//   color: #1d2220;
-//   background-color: #f8f9fa;
-//   border: none;
-// }
-
-// .faq-section .accordion-button:not(.collapsed) {
-//   color: #1d2220;
-//   background-color: #e9ecef;
-// }
-
-// .faq-section .accordion-body {
-//   font-size: 1rem;
-//   color: #777a79;
-//   padding: 1rem 1.25rem;
-// }
-
-// .faq-section .accordion-item {
-//   border-radius: 8px;
-//   margin-bottom: 0.5rem;
-//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-// }
-
-// .faq-section .btn-light {
-//   background-color: #f4f4f4;
-//   border: 1px solid #d1e7dd;
-//   border-radius: 8px;
-// }
-
-// .accordion{
-//   width: 80%;
-//   margin: 0 auto;
-// }
+.text_green:hover {
+  box-shadow: inset 0px 6px 10px 0px #1d222015, 0px 6px 12px 0px #00000030 !important;
+  transform: translateY(-1px) !important;
+  color: white !important;
+  background-color: #6c757d !important;
+  border: 1px solid transparent !important;
+}

@@ -444,4 +444,20 @@ body {
   color: #1d2220;
 }
 
+.text_green {
+  border: 1px solid #019f53 !important;
+  background-color: #fff;
+  color: #019f53 !important;
+  box-shadow: inset 0px 6px 10px 0px rgba(29, 34, 32, 0.0196078431), 0px 4px 10px 0px rgba(0, 0, 0, 0.0784313725) !important;
+  transition: all 0.3s ease !important;
+}
+
+.text_green:hover {
+  box-shadow: inset 0px 6px 10px 0px rgba(29, 34, 32, 0.0823529412), 0px 6px 12px 0px rgba(0, 0, 0, 0.1882352941) !important;
+  transform: translateY(-1px) !important;
+  color: white !important;
+  background-color: #6c757d !important;
+  border: 1px solid transparent !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
