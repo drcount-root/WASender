@@ -307,17 +307,12 @@ body {
   line-height: 1.3;
   color: #1d2220;
 }
-.what-makes-different p,
-.what-makes-different ul li {
+.what-makes-different p, .what-makes-different ul li {
   font-size: 1rem;
   color: #777a79;
 }
 .what-makes-different ul li {
   color: #1d2220;
-}
-.what-makes-different .btn-success {
-  background: #28a745;
-  border: none;
 }
 .what-makes-different .btn-outline-secondary {
   background: #fff;
@@ -340,10 +335,6 @@ body {
 .setup-to-sending .card {
   border-radius: 12px;
   background: #fff;
-}
-.setup-to-sending .btn-success {
-  background: #28a745;
-  border: none;
 }
 .setup-to-sending .btn-outline-secondary {
   background: #fff;
@@ -368,11 +359,21 @@ body {
 .check-suitability-section ul li {
   font-size: 1rem;
 }
-.check-suitability-section .btn-success {
-  background: #28a745;
-  border: none;
+.check-suitability-section .btn-success.trial-btn {
+  font-size: 0.9rem;
+  padding: 10px 18px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1);
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  background: linear-gradient(180deg, #2ecc71 0%, #27ae60 100%);
+  color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.check-suitability-section .btn-success.trial-btn:hover {
+  background: linear-gradient(180deg, #27ae60 0%, #219653 100%);
 }
 
 .manshowingGrowthChart_image {
@@ -588,13 +589,13 @@ body {
 }
 @media (max-width: 991px) {
   .cta-section {
-    margin: 0 2rem;
+    margin: 4rem 2rem;
     padding: 3.5rem 2rem;
   }
 }
 @media (max-width: 768px) {
   .cta-section {
-    margin: 0 1rem;
+    margin: 4rem 1rem;
     padding: 3rem 1rem;
   }
 }
