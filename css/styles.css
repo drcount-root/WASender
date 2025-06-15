@@ -561,6 +561,8 @@ body {
 }
 .faq-section .accordion .accordion-item .accordion-button[aria-expanded=true]::after {
   background: url("/assets/icons/up.svg") no-repeat center/contain;
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(0deg);
 }
 .faq-section .accordion .accordion-item .accordion-body {
   padding: 0 1.5rem 1rem;
