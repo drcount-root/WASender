@@ -305,7 +305,7 @@ body {
     justify-content: start;
   }
   &:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px) rotate(2deg);
     box-shadow: $shadow-md;
   }
 }
@@ -436,7 +436,7 @@ body {
     padding: 1rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     &:hover {
-      transform: translateY(-5px);
+      transform: translateY(-5px) rotate(-2deg);
       box-shadow: $shadow-md;
     }
     p {
@@ -741,4 +741,3 @@ body {
   width: fit-content !important;
   height: fit-content !important;
 }
-

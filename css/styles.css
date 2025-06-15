@@ -291,7 +291,7 @@ body {
   justify-content: start;
 }
 .feature-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) rotate(2deg);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -442,7 +442,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .testimonials .testimonial-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) rotate(-2deg);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 .testimonials .testimonial-card p {
